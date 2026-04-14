@@ -402,7 +402,7 @@ def _charger_modele_cached() -> object:
 def _page_accueil() -> None:
     # Page 1: Accueil
     st.title(APP_TITLE)
-    st.subheader("Outil de prédiction et d'optimisation basé sur l'Intelligence Artificielle")
+    st.subheader("Outil de prédiction et d'optimisation basé sur le machine learning")
     st.write(
         "Cette application prédit la résistance à la compression à 28 jours (fc28) "
         "à partir d'une formulation de béton (dosages en kg/m³ et âge en jours), "
